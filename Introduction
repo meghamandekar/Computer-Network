@@ -1,0 +1,150 @@
+-> Computer Network is a group of computers connected with each other through wires, optical fibres or optical links so that various devices can interact with each other through a network.
+
+-> Major components of a computer network are:
+1. NIC(National interface card)
+   NIC is a device that helps the computer to communicate with another device.
+
+There are two types of NIC: wireless NIC and wired NIC.
+i-Wireless NIC: All the modern laptops use the wireless NIC. In Wireless NIC, a connection is made using the antenna that employs the radio wave technology.
+
+ii-Wired NIC: Cables use the wired NIC to transfer the data over the medium.
+
+2.Hub
+  Hub is a central device that splits the network connection into multiple devices.
+
+3.Switch
+Switch is a networking device that groups all the devices over the network to transfer the data to another device. A switch is better than Hub as it does not broadcast the message over the network, i.e., it sends the message to the device for which it belongs to. Therefore, we can say that switch sends the message directly from source to the destination.
+
+
+4.Cable
+Cable is a transmission media that transmits the communication signals. There are three types of cables:
+
+1.Twisted pair cable: It is a high-speed cable that transmits the data over 1Gbps or more.
+
+2.Coaxial cable: Coaxial cable resembles like a TV installation cable.
+
+3.Fibre optic cable: Fibre optic cable is a high-speed cable that transmits the data using light beams.
+
+5.Router
+Router is a device that connects the LAN to the internet. The router is mainly used to connect the distinct networks or connect the internet to multiple computers.
+
+Layer 3 (Network layer)
+
+6.Modem
+Modem connects the computer to the internet.
+
+->Features Of Computer network
+1.Communication speed
+Network provides us to communicate over the network in a fast and efficient manner.
+
+2.File sharing
+File sharing is one of the major advantage of the computer network.
+
+3.Back up and Roll back is easy
+Since the files are stored in the main server which is centrally located. 
+
+4.Software and Hardware sharing
+We can install the applications on the main server, therefore, the user can access the applications centrally. 
+
+5.Security
+Network allows the security by ensuring that the user has the right to access the certain files and applications.
+
+6.Scalability
+Scalability means that we can add the new components on the network.
+
+7.Reliability
+Computer network can use the alternative source for the data communication in case of any hardware failure.
+
+->Computer Network Architecture
+1.Peer-To-Peer network
+Peer-To-Peer network is a network in which all the computers are linked together with equal privilege and responsibilities for processing the data.
+
+Peer-To-Peer network is useful for small environments, usually up to 10 computers.
+
+Peer-To-Peer network has no dedicated server.
+
+2.Client/Server network
+Client/Server network is a network model designed for the end users called clients, to access the resources such as songs, video, etc. from a central computer known as Server.
+
+The central controller is known as a server while all other computers in the network are called clients.
+
+-> Computer Network Types
+1.LAN(Local Area Network)
+Local Area Network is a group of computers connected to each other in a small area such as building, office.
+
+LAN is used for connecting two or more personal computers through a communication medium such as twisted pair, coaxial cable, etc.
+
+It is less costly as it is built with inexpensive hardware such as hubs, network adapters, and ethernet cables.
+
+2.PAN(Personal Area Network)
+Personal Area Network is a network arranged within an individual person, typically within a range of 10 meters.
+
+3.MAN(Metropolitan Area Network)
+A metropolitan area network is a network that covers a larger geographic area by interconnecting a different LAN to form a larger network.
+
+The most widely used protocols in MAN are RS-232, Frame Relay, ATM, ISDN, OC-3, ADSL, etc
+
+4.WAN(Wide Area Network)
+A Wide Area Network is a network that extends over a large geographical area such as states or countries.
+
+->An internetwork is defined as two or more computer network LANs or WAN 
+
+->What is Network Topology?
+Topology defines the structure of the network of how all the components are interconnected to each other.
+
+1.Bus topology
+The bus topology is designed in such a way that all the stations are connected through a single cable known as a backbone cable.
+
+The most common access method of the bus topologies is CSMA (Carrier Sense Multiple Access).
+
+CSMA CD: CSMA CD (Collision detection) is an access method used to detect the collision. Once the collision is detected, the sender will stop transmitting the data. Therefore, it works on "recovery after the collision".
+
+CSMA CA: CSMA CA (Collision Avoidance) is an access method used to avoid the collision by checking whether the transmission media is busy or not. If busy, then the sender waits until the media becomes idle. This technique effectively reduces the possibility of the collision. It does not work on "recovery after the collision"
+
+2.Ring Topology
+
+Ring topology is like a bus topology, but with connected ends.
+
+The node that receives the message from the previous computer will retransmit to the next node.
+
+The data flows in one direction, i.e., it is unidirectional.
+
+3.Star topology is an arrangement of the network in which every node is connected to the central hub, switch or a central computer.
+
+4.Tree topology
+Tree topology combines the characteristics of bus topology and star topology.
+
+A tree topology is a type of structure in which all the computers are connected with each other in hierarchical fashion.
+
+5.Mesh topology
+Mesh technology is an arrangement of the network in which computers are interconnected with each other.
+
+Full Mesh Topology: In a full mesh topology, each computer is connected to all the computers available in the network.
+
+Partial Mesh Topology: In a partial mesh topology, not all but certain computers are connected to those computers with which they communicate frequently.
+
+6.Hybrid topology
+The combination of various different topologies is known as Hybrid topology.
+
+->Transmission modes
+The way in which data is transmitted from one device to another device is known as transmission mode.
+
+1.In Simplex mode, the communication is unidirectional, i.e., the data flow in one direction.
+
+A device can only send the data but cannot receive it or it can receive the data but cannot send the data.
+
+Keyboard and Monitor are the examples of the simplex mode as a keyboard can only accept the data from the user and monitor can only be used to display the data on the screen.
+
+2.Half-Duplex mode
+In a Half-duplex channel, direction can be reversed, i.e., the station can transmit and receive the data as well.
+
+Messages flow in both the directions, but not at the same time.
+
+A Walkie-talkie is an example of the Half-duplex mode. In Walkie-talkie, one party speaks, and another party listens. After a pause, the other speaks and first party listens. Speaking simultaneously will create the distorted sound which cannot be understood.
+
+3.Full duplex mode
+In Full duplex mode, the communication is bi-directional, i.e., the data flow in both the directions.
+
+Both the stations can send and receive the message simultaneously.
+
+The most common example of the full-duplex mode is a telephone network.
