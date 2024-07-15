@@ -1,0 +1,117 @@
+# Layered Architecture
+- Service: It is a set of actions that a layer provides to the higher layer.
+
+- Protocol: It defines a set of rules that a layer uses to exchange the information with peer entity. These rules mainly concern about both the contents and order of the messages used.
+
+- Interface: It is a way through which the message is transferred from one layer to another layer.
+
+# OSI
+- OSI stands for Open System Interconnection is a reference model that describes how information from a software application in one computer moves through a physical medium to the software application in another computer.
+
+- The upper layer of the OSI model mainly deals with the application related issues, and they are implemented only in the software. The application layer is closest to the end user.
+
+- The lower layer of the OSI model deals with the data transport issues. The data link layer and the physical layer are implemented in hardware and software. The physical layer is the lowest layer of the OSI model and is closest to the physical medium. 
+
+* 7 Layers
+
+1) Physical layer
+- The main functionality of the physical layer is to transmit the individual bits from one node to another node.
+- It is the lowest layer of the OSI model.
+- It establishes, maintains and deactivates the physical connection.
+
+2) Data Link Layer 
+- This layer is responsible for the error-free transfer of data frames.
+
+- It contains two sub-layers:
+1) Logical Link Control Layer
+It is responsible for transferring the packets to the Network layer of the receiver that is receiving.
+
+2) Media Access Control Layer
+A Media access control layer is a link between the Logical Link Control layer and the network's physical layer.
+
+Framing: The header which is added to the frame contains the hardware destination and source address.
+
+- CRC (Cyclic Redundancy Check) that is placed to the Data link layer's trailer which is added to the message frame before it is sent to the physical layer. If any error seems to occurr, then the receiver sends the acknowledgment for the retransmission of the corrupted frames.
+
+3) Network Layer
+- It is basiclly responsiple for moving packets from source to destination.
+
+- Routers are the layer 3 devices
+- protocols are IP and Ipv6.
+
+4) Transport layer
+- The Transport layer is a Layer 4 ensures that messages are transmitted in the order in which they are sent and there is no duplication of data.
+
+The two protocols used in this layer are:
+
+1)  Transmission Control Protocol
+It is a standard protocol that allows the systems to communicate over the internet.
+- When data is sent over the TCP connection, then the TCP protocol divides the data into smaller units known as segments. 
+
+2) User Datagram Protocol
+- User Datagram Protocol is a transport layer protocol.
+- It is an unreliable transport protocol as in this case receiver does not send any acknowledgment when the packet is received, the sender does not wait for any acknowledgment. Therefore, this makes a protocol unreliable.
+
+5) Session Layer
+- It is basically manage and terminate the sessions.
+
+6) Presentation Layer
+- It is basically responsible for transaltion, compression encryption.
+
+- It acts as a data translator for a network.
+
+7) Application Layer
+- This layer provides service to the user.
+
+# TCP/IP model
+- The TCP/IP model consists of five layers: the application layer, transport layer, network layer, data link layer and physical layer.
+
+1) Network Access Layer
+- A network layer is the lowest layer of the TCP/IP model.
+
+- A network layer is the combination of the Physical layer and Data Link layer defined in the OSI reference model.
+
+
+- This layer is mainly responsible for the transmission of the data between two devices on the same network.
+
+2) Internet Layer
+- An internet layer is the second layer of the TCP/IP model.
+
+- An internet layer is also known as the network layer.
+
+- The main responsibility of the internet layer is to send the packets from any network, and they arrive at the destination 
+
+- Address Resolution Protocol.
+ARP is a network layer protocol which is used to find the physical address from the IP address.
+
+ARP Protocol
+- ARP stands for Address Resolution Protocol.
+- ARP is a network layer protocol which is used to find the physical address from the IP address.
+
+- ICMP stands for Internet Control Message Protocol.
+- It is a mechanism used by the hosts or routers to send notifications regarding datagram problems back to the sender.
+
+3) Transport layer
+- The transport layer is responsible for the reliability, flow control, and correction of data which is being sent over the network.
+
+4) Application Layer
+- An application layer is the topmost layer in the TCP/IP model.
+
+- It is responsible for handling high-level protocols
+
+- This layer allows the user to interact with the application.
+
+The main protocols used in the application layer:
+1) HTTP: HTTP stands for Hypertext transfer protocol. This protocol allows us to access the data over the world wide web. 
+
+2) SNMP: SNMP stands for Simple Network Management Protocol. It is a framework used for managing the devices on the internet 
+
+3) DNS: DNS stands for Domain Name System
+- An IP address is used to identify the connection of a host to the internet uniquely.
+
+4) SMTP: SMTP stands for Simple mail transfer protocol.
+This protocol is used to send the data to another e-mail address.
+
+5) TELNET: It is an abbreviation for Terminal Network. It establishes the connection between the local computer and remote computer.
+
+6) FTP: FTP stands for File Transfer Protocol. FTP is a standard internet protocol used for transmitting the files from one computer to another computer.
