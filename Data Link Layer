@@ -1,0 +1,44 @@
+# Data Link Layer
+
+- In order to move the datagram from source to the destination, the datagram must be moved across an individual link.
+
+- The Data link layer protocol defines the format of the packet exchanged across the nodes as well as the actions such as Error detection, retransmission, flow control, and random access.
+
+- The Data Link Layer protocols are Ethernet, token ring, FDDI and PPP.
+
+# Types Of Errors
+Error Detection
+
+1. Single-Bit Error -
+The only one bit of a given data unit is changed from 1 to 0 or from 0 to 1.
+
+2. Burst Error -
+The two or more bits are changed from 0 to 1 or from 1 to 0 is known as Burst Error.
+
+The most popular Error Detecting Techniques are:
+Single parity check
+Two-dimensional parity check
+Checksum
+Cyclic redundancy check
+
+# Error Correction
+1. Backward error correction: Once the error is discovered, the receiver requests the sender to retransmit the entire data unit.
+2. Forward error correction: In this case, the receiver uses the error-correcting code which automatically corrects the errors.
+
+- Hamming Code
+Parity bits: The bit which is appended to the original data of binary bits so that the total number of 1s is even or odd.
+
+Even parity: To check for even parity, if the total number of 1s is even, then the value of the parity bit is 0. If the total number of 1s occurrences is odd, then the value of the parity bit is 1.
+
+Odd Parity: To check for odd parity, if the total number of 1s is even, then the value of parity bit is 1. If the total number of 1s is odd, then the value of parity bit is 0.
+
+# Data Link Controls
+
+1. Line Discipline is a functionality of the Data link layer that provides the coordination among the link systems. It determines which device can send, and when it can send the data.
+
+2. Flow Control
+The receiving device has limited speed and limited memory to store the data. Therefore, the receiving device must be able to inform the sending device to stop the transmission temporarily before the limits are reached.
+
+3. Error Control
+Error Control is a technique of error detection and retransmission.
+
