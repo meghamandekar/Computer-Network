@@ -1,0 +1,14 @@
+- In order to transfer the packets from source to the destination, the network layer must determine the best route through which packets can be transmitted.
+
+# Classification of a Routing algorithm
+The Routing algorithm is divided into two categories:
+
+1. Adaptive Routing algorithm - 
+- An adaptive routing algorithm is also known as dynamic routing algorithm.
+- This algorithm makes the routing decisions based on the topology and network traffic.
+- The main parameters related to this algorithm are hop count, distance and estimated transit time.
+
+2. Non-adaptive Routing algorithm
+- Non Adaptive routing algorithm is also known as a static routing algorithm.
+
+- Non Adaptive routing algorithms do not take the routing decision based on the network topology or network traffic.
