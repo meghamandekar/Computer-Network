@@ -1,0 +1,7 @@
+- The application layer in the OSI model is the closest layer to the end user which means that the application layer and end user can interact directly with the software application.
+
+- A client is a program that runs on the local machine requesting service from the server.
+
+- A server is a program that runs on the remote machine providing services to the clients. 
+
+# Application Protocols
